@@ -2,4 +2,4 @@
 
 Second challenge from Frontend Mentor <br> 
 Few problems with making things look good <br>
-product-previewcard-fm.netlify.app
+https://product-previewcard-fm.netlify.app
