@@ -76,7 +76,7 @@ h1 {
 }
 
 .price > h5 {
-  text-decoration: line-through;
+  text-decoration: line-through;  /* Mozna bylo uzyc <del> w htmlu */
   color: hsl(228, 12%, 48%);
 }
 
@@ -115,11 +115,12 @@ main button:hover {
   .img_container {
     width: 100%;
     height: 40%;
-    padding: 1rem;
+    /* padding: 1rem; did a space between img and border */
+    padding-bottom: 1rem;
   }
   .img_container img {
-    content: url("image-product-mobile.jpg");
-    border-radius: 10px;
+    content: url("/images/image-product-mobile.jpg");
+    border-radius: 10px 10px 0 0;
   }
 
   .main_details {
